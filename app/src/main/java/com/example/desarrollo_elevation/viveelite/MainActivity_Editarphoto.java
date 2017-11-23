@@ -2148,7 +2148,7 @@ cambio_marco.setOnClickListener(new View.OnClickListener() {
         Bitmap waterMark = BitmapFactory.decodeResource(context.getResources(), R.drawable.elite_small);
         Paint alphaPaint = new Paint();
         alphaPaint.setAlpha(50);
-        canvas.drawBitmap(waterMark, 30, (float) (src.getHeight()/1.5), alphaPaint);
+        canvas.drawBitmap(waterMark, (float) (src.getWidth()/1.7), (float) (src.getHeight()/1.5), alphaPaint);
         return result;
     }
 

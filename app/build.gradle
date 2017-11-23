@@ -7,18 +7,18 @@ android {
         applicationId "com.elite.mexico.app"
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 3
-        versionName "1.0.2"
+        versionCode 6
+        versionName "1.2.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            debuggable true
+            debuggable false
         }
         debug {
-            debuggable true
+            debuggable false
         }
     }
 }
